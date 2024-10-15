@@ -2,7 +2,7 @@
 
 Quick config to setup and test a Llama 3.2 chatbot
 
-first setup will be on windows runningf a docker container as I need to build rig.
+first setup will be on windows running a docker container as I need to build a new rig.
 
 ## Setup
 # Windows setup:
@@ -21,5 +21,3 @@ docker run --rm -it --gpus=all nvcr.io/nvidia/k8s/cuda-sample:nbody nbody -gpu -
 - https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#id1
 - https://docs.docker.com/desktop/wsl/#turn-on-docker-desktop-wsl-2
 - https://docs.docker.com/desktop/gpu/
-
-
